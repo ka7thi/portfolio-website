@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Sebastian Kaczor - Junior Front-End Developer</title>
+    <link href="css/main.css" type="text/css" rel="stylesheet">
+    <link href="css/animations.css" type="text/css" rel="stylesheet">
+    <link href="css/rwd.css" type="text/css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="img/fav.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <meta name="description" content="Strona osobista Junior Front-End Developera szukającego pierwszej pracy. Potrzebujesz powiewu świeżości w swojej firmie? Wejdź na moją stronę i sprawdź co mam do zaoferowania.">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta property="og:url" content="https://sebastiankaczor.pl" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Junior Front-End Developer" />
+    <meta property="og:description" content="Dowiedz się więcej o początkującym programiście front-end." />
+    <meta property="og:image" content="https://sebastiankaczor.pl/img/og-img.jpg" />
+</head>
+<body>
+
+    <div class="flat"></div>
+    <div class="car display-none"></div>
+    <div class="flat-contact display-none"></div>
+    
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__list-item">
+                <button class="navigation__button" type="button">
+                    <span class="navigation__button-text">O mnie</span>
+                </button>
+            </li>
+            <li class="navigation__list-item">
+                <button class="navigation__button" type="button">
+                    <span class="navigation__button-text">Portfolio</span>
+                </button>
+            </li>
+            <li class="navigation__list-item">
+                <button class="navigation__button" type="button">
+                    <span class="navigation__button-text">Kontakt</span>
+                </button>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="about-wrapper --scroll display-none">
+        <article class="article --skills display-none">
+            <h2 class="article__title --technologies-title">Technologie</h2>
+            <div class="skills-wrapper --scroll">
+                <ul class="skills__list">
+                    <li class="skills__list-item" id="0">
+                        <i class="fab fa-html5 fa-5x"></i>
+                    </li>
+                    <li class="skills__list-item" id="1">
+                        <i class="fab fa-css3-alt fa-5x"></i>
+                    </li>
+                    <li class="skills__list-item"  id="2">
+                        <i class="fab fa-js fa-5x"></i>
+                    </li>
+                </ul>
+            
+                <h3 class="article__subtitle --skills-subtitle">Pozostałe</h3>
+                <ul class="other-skills__list">
+                    <li class="other-skills__list-item">
+                        Język angielski - nie mam problemów z czytaniem dokumentacji
+                    </li>
+                    <li class="other-skills__list-item">
+                        RWD - tworzę witryny przystosowane do urządzeń o różnych rozdzielczościach
+                    </li>
+                    <li class="other-skills__list-item">
+                        Adobe Photoshop - bardzo podstawowa obróbka grafik
+                    </li>
+                    <li class="other-skills__list-item">
+                        SEO - orientuję się w głównych założeniach oraz dobrych praktykach
+                    </li>
+                    <li class="other-skills__list-item">
+                        BEM - staram się używać tej metodologii 
+                    </li>
+                    <li class="other-skills__list-item">
+                        AJAX - potrafię tworzyć proste asynchroniczne zapytania
+                    </li>
+                    <li class="other-skills__list-item">
+                        JSON - nie jest mi obcy ; ) 
+                    </li>
+                </ul>   
+            </div>
+        </article>
+        
+        <article class="article --about display-none">
+            <h2 class="article__title">O mnie</h2>
+            <p class="article__text --about-text --about-scroll">Cześć! Jeśli to czytasz, to znaczy że choć trochę zainteresowała Cię moja osoba. Jestem Sebastian i liczę sobie 22 lata. Od niedawna mieszkam w Poznaniu i w domowym zaciszu dążę do zostania front-end developerem. Ukończyłem technikum elektroniczne na profilu technika informatyka. To właśnie tam pierwszy raz zetknąłem się z językami HTML, CSS i JS. Postanowiłem na własną rękę nauczyć się sprawnego posługiwania powyższymi technologiami. Swoją naukę rozpocząłem od kursów internetowych oraz materiałów na youtubie. Obecnie kodowanie to jedno z moich największych zainteresowań i mam nadzieję, że wkrótce stanie się pracą. W końcu najlepsza praca to taka, która sprawia radość. Oprócz tworzenia warstw wizualnych witryn www oraz pisania kodu javascript interesuję się muzyką. W czasach gimnazjalnych słuchałem muzyki elektronicznej i chciałem zostać DJem, lecz obecnie w sercu gra mi polski rap. To właśnie on stał się inspiracją stylu graficznego strony, na której właśnie się znajdujesz. Lubię również od czasu do czasu pograć w jakieś gry. W przeszłości kilka razy pilnowałem porządku jako moderator na forach internetowych oraz jako administrator w grach online.</p>
+        </article>
+    </div>
+    
+    <div class="portfolio-wrapper --scroll display-none">
+        
+        <article class="article --portfolio display-none">
+            <h2 class="article__title">Portfolio</h2>
+            <p class="article__text">Poniżej znajdują się moje wszystkie projekty, które uznałem za warte pokazania. Aby ułatwić ocenę mojego postępu, posegregowałem je od najnowszego do najstarszego. Z perspektywy czasu potrafię dostrzec błędy lub fragmenty kodu, które mógłbym poprawić. Sądzę jednak, że nie ma sensu stać w miejscu i poświęcać zbyt wiele czasu na jeden projekt, który po upływie kolejnego miesiąca znowu uznałbym za warty poprawienia. Uczę się na błędach i staram się ponownie ich nie popełniać. Czy mi to wychodzi? Oceń sam!</p> 
+        </article>
+    
+        <section class="projects display-none">
+            
+            <ul class="projects__list --scroll">
+                <li class="projects__list-item"><button class="projects__button --portfolio-color --projects-active" type="button" id="portfolio">Portfolio<span class="projects__type">Strona internetowa</span></button></li>
+                <li class="projects__list-item"><button class="projects__button --tap-and-kill-color --projects-under-dev" type="button" id="tap-and-kill">Tap & Kill<span class="projects__type">Gra</span></button></li>
+                <li class="projects__list-item"><button class="projects__button --saxofon-color" type="button" id="saxofon">Saxofon<span class="projects__type">Strona internetowa</span></button></li>
+                <li class="projects__list-item"><button class="projects__button --tvr-color" type="button" id="tvr">TVR<span class="projects__type">Strona internetowa</span></button></li>
+                <li class="projects__list-item"><button class="projects__button --tombola-color" type="button" id="tombola">Koło losu<span class="projects__type">Minigra</span></button></li>
+                <li class="projects__list-item"><button class="projects__button --tic-tac-toe-color" type="button" id="tic-tac-toe">Kółko i Krzyżyk<span class="projects__type">Gra</span></button></li>
+            </ul>
+            
+            <article class="projects__info" id="portfolio">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">Moje portfolio</h3>
+                    <p class="projects__description">Obecnie mój najnowszy i w pełni responsywny projekt mojej osobistej strony pełniącej głównie rolę portfolio.</p>
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/portfolio-website" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl" class="projects__link" target="_blank"><img src="img/portfolio.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+            <article class="projects__info display-none" id="tap-and-kill">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">Tap & Kill</h3>
+                    <p class="projects__description">Tap & Kill to obecnie prosta, a w planach dosyć rozbudowana gra o nieskomplikowanych zasadach - stuknij i zabij. Projekt jest w bardzo wczesnej fazie rozwoju.</p>
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS, AJAX, JSON</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl/tap-and-kill/" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/tap-and-kill" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl/tap-and-kill/" class="projects__link" target="_blank"><img src="img/tap-and-kill.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+            <article class="projects__info display-none" id="saxofon">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">Saxofon</h3>
+                    <p class="projects__description">Witryna internetowa wykonana dla lokalu gastronomicznego. Projekt jest w pełni przystosowany do urządzeń mobilnych.</p>  
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS, RWD</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl/saxofon/" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/saxofon-website" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl/saxofon/" class="projects__link" target="_blank"><img src="img/saxofon.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+            <article class="projects__info display-none" id="tvr">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">TVR</h3>
+                    <p class="projects__description">Projekt studencki nieistniejącej firmy zajmującej się podróżami w wirtualnej rzeczywistości. Strona jest w pełni responsywana.</p>  
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS, RWD</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl/tvr/" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/tvr" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl/tvr/" class="projects__link" target="_blank"><img src="img/tvr.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+            <article class="projects__info display-none" id="tombola">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">Koło losu</h3>
+                    <p class="projects__description">Jeśli grałeś kiedyś w Metin2, to z pewnością rozpoznasz ten projekt. Jest to tzw. tombola, czyli koło losu z kilkoma poziomami nagród przystosowane do uniwersum gry.</p>  
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS, RWD</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl/tombola/" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/tombola" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl/tombola/" class="projects__link" target="_blank"><img src="img/tombola.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+            <article class="projects__info display-none" id="tic-tac-toe">
+                <div class="projects__text-wrapper">
+                    <h3 class="projects__title">Kółko i Krzyżyk</h3>
+                    <p class="projects__description">Tej gry nie trzeba nikomu przedstawiać. Mechanika działania była moim pierwszym "poważniejszym" samodzielnie napisanym kodem javascript. Po kilku miesiącach zdecydowałem się odświeżyć szatę graficzną projektu i oto minimalistyczny efekt, który udało mi się uzyskać.</p> 
+                    <p class="projects__description"><span class="projects__technologies">Wykorzystane technologie:</span>HTML, CSS, JS, AJAX</p>
+                    <div class="projects__icon-wrapper">
+                        <a href="https://sebastiankaczor.pl/game/" class="projects__icon" target="_blank"><i class="fas fa-globe-americas"></i></a>
+                        <a href="https://github.com/ka7thi/tic-tac-toe" class="projects__icon" target="_blank"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <a href="https://sebastiankaczor.pl/game/" class="projects__link" target="_blank"><img src="img/tic-tac-toe.jpg" class="projects__img" alt="Grafika prezentująca projekt"></a>
+            </article>
+            
+        </section>
+    </div>
+        
+    <div class="contact-wrapper display-none">
+        <article class="article --contact">
+            <h2 class="article__title">Kontakt</h2>
+            <a href="mailto:kontakt.skaczor@gmail.com" class="article__link">kontakt.skaczor(at)gmail.com</a><a href="https://www.facebook.com/k4czi" class="article__link" target="_blank">facebook.com/k4czi</a><a href="https://github.com/ka7thi" class="article__link" target="_blank">github.com/ka7thi</a>
+            <img src="img/me-brick.png" class="me-brick" alt="To ja i cegła :D">
+        </article>
+    </div>
+    
+    <footer class="footer display-none">
+        <p class="footer__copyright">Sebastian Kaczor - 2019 - All rights reserved.</p>
+    </footer>
+    
+    <button class="footer__return display-none" title="Powrót do menu" type="button"></button>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
+<!--       _
+       .__(.)< (MEOW)
+        \___)   
+ ~~~~~~~~~~~~~~~~~~-->

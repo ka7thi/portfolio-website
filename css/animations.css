@@ -1,0 +1,386 @@
+.flatCome {
+    animation: flatComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.flatOut {
+    animation: flatOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes flatComeAnimation {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        bottom: 0;
+        opacity: 0.6;
+    }
+}
+
+@keyframes flatOutAnimation {
+    0% {
+        bottom: 0;
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        bottom: -100%;
+        opacity: 0;
+    }
+}
+
+.navigationCome {
+    animation: navigationComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.navigationOut {
+    animation: navigationOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes navigationComeAnimation {
+    0% {
+        top: -100%;
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes navigationOutAnimation {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.5;
+    }
+    100% {
+        top: -100%;
+        opacity: 0;
+    }
+}
+
+.footerCome {
+    animation: footerComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.footerOut {
+    animation: footerOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes footerComeAnimation {
+    0% {
+        bottom: -100%;
+        opacity: 0;
+    }
+    60% {
+        opacity: 0.5;
+    }
+    100% {
+        bottom: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes footerOutAnimation {
+    0% {
+        bottom: 0;
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    100% {
+        bottom: -100%;
+        opacity: 0;
+    }
+}
+
+.returnCome {
+    animation: returnComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.returnOut {
+    animation: returnOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes returnComeAnimation {
+    0% {
+        bottom: -100%;
+    }
+    100% {
+        bottom: -30px;
+    }
+}
+
+@keyframes returnOutAnimation {
+    0% {
+        bottom: -30px;
+        opacity: 1;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    100% {
+        bottom: -100%;
+        opacity: 0;
+    }
+}
+
+.carCome {
+    animation: carComeAnimation;
+    animation-duration: 1200ms;
+}
+
+.carOut {
+    animation: carOutAnimation;
+    animation-duration: 1200ms;
+}
+
+@keyframes carComeAnimation {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes carOutAnimation {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        left: -100%;
+        opacity: 0;
+    }
+}
+
+.skillsCome {
+    animation: skillsComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.skillsOut {
+    animation: skillsOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes skillsComeAnimation {
+    0% {
+        right: -100%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        right: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes skillsOutAnimation {
+    0% {
+        right: 0;
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        right: -100%;
+        opacity: 0;
+    }
+}
+
+.aboutCome {
+    animation: aboutComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.aboutOut {
+    animation: aboutOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes aboutComeAnimation {
+    0% {
+        left: -100%;
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        left: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes aboutOutAnimation {
+    0% {
+        left: 0;
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        left: -100%;
+        opacity: 0;
+    }
+}
+
+.portfolioCome {
+    animation: portfolioComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.portfolioOut {
+    animation: portfolioOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes portfolioComeAnimation {
+    0% {
+        top: -100%;
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.5;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes portfolioOutAnimation {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    20% {
+        opacity: 0.5;
+    }
+    100% {
+        top: -100%;
+        opacity: 0;
+    }
+}
+
+.projectsCome {
+    animation: projectsComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.projectsOut {
+    animation: projectsOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes projectsComeAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes projectsOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.flatContactCome {
+    animation: flatContactComeAnimation;
+    animation-duration: 1800ms;
+}
+
+.flatContactOut {
+    animation: flatContactOutAnimation;
+    animation-duration: 1800ms;
+}
+
+@keyframes flatContactComeAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flatContactOutAnimation {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.contactCome {
+    animation: contactComeAnimation;
+    animation-duration: 1300ms;
+}
+
+.contactOut {
+    animation: contactOutAnimation;
+    animation-duration: 1300ms;
+}
+
+@keyframes contactComeAnimation {
+    0% {
+        transform: scale(0.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes contactOutAnimation {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        transform: scale(0);
+    }
+}
